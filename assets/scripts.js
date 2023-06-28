@@ -4,6 +4,12 @@
         viewportFactor : 0.2
       });
 
+      new AnimOnScroll( document.getElementById( 'grid_2' ), {
+          minDuration : 0.4,
+          maxDuration : 0.7,
+          viewportFactor : 0.2
+      });
+
       function handleResize() {
       var h = $(window).height();
       $('.fullpage').css({'height':h+'px'});
